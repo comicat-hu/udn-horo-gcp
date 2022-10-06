@@ -18,4 +18,4 @@
 
 * create scheduler
 
-    `gcloud scheduler jobs update pubsub daily-trigger-am800 --schedule='0 8 * * *' --time-zone='Asia/Taipei' --topic=daily-horo --message-body 'wakeup'`
+    `gcloud scheduler jobs create pubsub daily-trigger-am800 --schedule='0 8 * * *' --time-zone='Asia/Taipei' --topic=daily-horo --message-body 'wakeup'`
