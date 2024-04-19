@@ -14,7 +14,7 @@
 
 * create/update functions
 
-    `gcloud functions deploy slack-udn-horo --entry-point handler --env-vars-file .env.yaml --trigger-topic daily-horo --runtime nodejs16`
+    `gcloud functions deploy slack-udn-horo --entry-point handler --env-vars-file .env.yaml --trigger-topic daily-horo --runtime nodejs20 --gen2`
 
 * create scheduler
 
